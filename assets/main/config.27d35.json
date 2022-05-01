@@ -1,0 +1,95 @@
+{
+    "paths": {},
+    "uuids": [
+        "42KFwqK0tFS5dr0RH/xy50",
+        "4aQODGNLlFOK2dtoO4TTsG",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "49fblTNqdOx5I7jEV1ByBh",
+        "79aG5/wx9Hx4cFoexgt/Td",
+        "5a5fyYWfxGqqER6kWjc201",
+        "c1iPoJDxlDyowE6AhPkUh7",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        "a1ny3PD1BCaLOgu9wUkvsW",
+        "92hJS+SdJKYbma+kKA/Fw+",
+        "58s6mN+5ZGH56CjR95kx8l",
+        "a6jbMKJfhBKINPHfVuTg7W",
+        "e8Ueib+qJEhL6mXAHdnwbi",
+        "b4P/PCArtIdIH38t6mlw8Y",
+        "02delMVqdBD70a/HSD99FK",
+        "71VhFCTINJM6/Ky3oX9nBT"
+    ],
+    "scenes": {
+        "db://assets/scene/Game.fire": "42KFwqK0tFS5dr0RH/xy50",
+        "db://assets/scene/Menu.fire": "4aQODGNLlFOK2dtoO4TTsG"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "02delMVqdBD70a/HSD99FK",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0aaa4b3e6": [
+            "42KFwqK0tFS5dr0RH/xy50",
+            "49fblTNqdOx5I7jEV1ByBh",
+            "5a5fyYWfxGqqER6kWjc201",
+            "79aG5/wx9Hx4cFoexgt/Td",
+            "c1iPoJDxlDyowE6AhPkUh7"
+        ],
+        "09b5f2233": [
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "4aQODGNLlFOK2dtoO4TTsG",
+            "79aG5/wx9Hx4cFoexgt/Td",
+            "a2MjXRFdtLlYQ5ouAFv/+R",
+            "e97GVMl6JHh5Ml5qEDdSGa",
+            "f0BIwQ8D5Ml7nTNQbh1YlS"
+        ],
+        "08df41f82": [
+            "58s6mN+5ZGH56CjR95kx8l",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "92hJS+SdJKYbma+kKA/Fw+",
+            "a1ny3PD1BCaLOgu9wUkvsW",
+            "a6jbMKJfhBKINPHfVuTg7W",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "e8Ueib+qJEhL6mXAHdnwbi"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "08df41f82",
+            "763e3",
+            "09b5f2233",
+            "45435",
+            "0aaa4b3e6",
+            "9eb5a"
+        ],
+        "native": [
+            "58s6mN+5ZGH56CjR95kx8l",
+            "0c687",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "c06a9",
+            "92hJS+SdJKYbma+kKA/Fw+",
+            "4b0bd",
+            "a1ny3PD1BCaLOgu9wUkvsW",
+            "5fdc8",
+            "a6jbMKJfhBKINPHfVuTg7W",
+            "36cb5",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "83fcc",
+            "e8Ueib+qJEhL6mXAHdnwbi",
+            "90cf4"
+        ]
+    }
+}
