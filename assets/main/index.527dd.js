@@ -145,6 +145,7 @@ window.__require = function e(t, n, r) {
         (this.direction > 0 && this.rigidBody.linearVelocity.x < this.velocity_Max_X || this.direction < 0 && this.rigidBody.linearVelocity.x > -this.velocity_Max_X) && this.rigidBody.applyForceToCenter(cc.v2(this.direction * this.walkForce, 0), true);
       };
       Player.prototype.setInputControl = function() {
+        var _this = this;
         var self = this;
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, function(event) {
           switch (event.keyCode) {
@@ -170,6 +171,24 @@ window.__require = function e(t, n, r) {
             self.direction = 0;
           }
         }, this);
+        this.leftControlButton.on(cc.Node.EventType.TOUCH_START, function() {
+          self.direction = -1;
+          console.log("LEFT pressed");
+        }, this);
+        this.leftControlButton.on(cc.Node.EventType.TOUCH_END, function() {
+          self.direction = 0;
+        }, this);
+        this.rightControlButton.on(cc.Node.EventType.TOUCH_START, function() {
+          self.direction = 1;
+          console.log("RIGHT pressed");
+        }, this);
+        this.rightControlButton.on(cc.Node.EventType.TOUCH_END, function() {
+          self.direction = 0;
+        }, this);
+        this.jumpButton.on(cc.Node.EventType.TOUCH_START, function() {
+          _this.jumpAction();
+          console.log("JUMP pressed");
+        }, this);
       };
       Player.prototype.jumpAction = function() {
         if (this.onGround) {
@@ -181,6 +200,9 @@ window.__require = function e(t, n, r) {
         2 == selfCollider.tag && (this.onGround = true);
       };
       __decorate([ property(cc.Node) ], Player.prototype, "canvas", void 0);
+      __decorate([ property(cc.Node) ], Player.prototype, "leftControlButton", void 0);
+      __decorate([ property(cc.Node) ], Player.prototype, "rightControlButton", void 0);
+      __decorate([ property(cc.Node) ], Player.prototype, "jumpButton", void 0);
       Player = __decorate([ ccclass ], Player);
       return Player;
     }(cc.Component);
