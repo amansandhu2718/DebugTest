@@ -1,0 +1,95 @@
+{
+    "paths": {},
+    "uuids": [
+        "42KFwqK0tFS5dr0RH/xy50",
+        "4aQODGNLlFOK2dtoO4TTsG",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "16LgmT+klFd7nuFwfsgLOT",
+        "c1iPoJDxlDyowE6AhPkUh7",
+        "40TTtL2gFE1bNheIICzjjS",
+        "b3c1oPYg9FGLrbqnunVxsy",
+        "79aG5/wx9Hx4cFoexgt/Td",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        "20qSUfeIVN3KD5hfm6k+7V",
+        "5fD866/11MPKyPOqj86VjD",
+        "56mPO02qhBGaitFopp+gCP",
+        "a1ny3PD1BCaLOgu9wUkvsW",
+        "b4P/PCArtIdIH38t6mlw8Y",
+        "02delMVqdBD70a/HSD99FK",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "e8Ueib+qJEhL6mXAHdnwbi"
+    ],
+    "scenes": {
+        "db://assets/scene/Game.fire": "42KFwqK0tFS5dr0RH/xy50",
+        "db://assets/scene/Menu.fire": "4aQODGNLlFOK2dtoO4TTsG"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "02delMVqdBD70a/HSD99FK",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "06a8876e5": [
+            "16LgmT+klFd7nuFwfsgLOT",
+            "40TTtL2gFE1bNheIICzjjS",
+            "42KFwqK0tFS5dr0RH/xy50",
+            "b3c1oPYg9FGLrbqnunVxsy",
+            "c1iPoJDxlDyowE6AhPkUh7"
+        ],
+        "0c8620eb2": [
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "4aQODGNLlFOK2dtoO4TTsG",
+            "a2MjXRFdtLlYQ5ouAFv/+R",
+            "e97GVMl6JHh5Ml5qEDdSGa",
+            "f0BIwQ8D5Ml7nTNQbh1YlS"
+        ],
+        "043903616": [
+            "20qSUfeIVN3KD5hfm6k+7V",
+            "56mPO02qhBGaitFopp+gCP",
+            "5fD866/11MPKyPOqj86VjD",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "a1ny3PD1BCaLOgu9wUkvsW",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "e8Ueib+qJEhL6mXAHdnwbi"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "043903616",
+            "4e05e",
+            "06a8876e5",
+            "c01ca",
+            "0c8620eb2",
+            "93df4"
+        ],
+        "native": [
+            "20qSUfeIVN3KD5hfm6k+7V",
+            "b7722",
+            "56mPO02qhBGaitFopp+gCP",
+            "fd647",
+            "5fD866/11MPKyPOqj86VjD",
+            "3eac2",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "c06a9",
+            "a1ny3PD1BCaLOgu9wUkvsW",
+            "5fdc8",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "83fcc",
+            "e8Ueib+qJEhL6mXAHdnwbi",
+            "90cf4"
+        ]
+    }
+}
