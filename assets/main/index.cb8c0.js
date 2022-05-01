@@ -68,17 +68,21 @@ window.__require = function e(t, n, r) {
         this.SetWalls();
       };
       GameController.prototype.start = function() {};
+      GameController.prototype.update = function(dt) {
+        this.SetWalls();
+      };
       GameController.prototype.EnableGravity = function() {
         var physicsManager = cc.director.getPhysicsManager();
         physicsManager.enabled = true;
         physicsManager.gravity = cc.v2(0, -2e3);
       };
       GameController.prototype.SetWalls = function() {
+        console.log("get frame size()" + cc.view.getFrameSize().width + " canvas width:" + this.node.width + " ");
         var canvasWidth = this.node.width;
         var LeftPointX = 0 - canvasWidth / 2;
         var RightPointX = 0 + canvasWidth / 2;
-        var x1 = LeftPointX - this.leftWall.width / 2;
-        var x2 = RightPointX + this.leftWall.width / 2;
+        var x1 = LeftPointX;
+        var x2 = RightPointX;
         this.leftWall.setPosition(x1, 0);
         this.rightWall.setPosition(x2, 0);
       };

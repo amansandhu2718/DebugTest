@@ -23,7 +23,7 @@ window._CCSettings = {
     debug: true,
     jsList: [],
     bundleVers: {
-        internal: "9d52b",
-        main: "52bdf"
+        internal: "93771",
+        main: "cb8c0"
     }
 };
